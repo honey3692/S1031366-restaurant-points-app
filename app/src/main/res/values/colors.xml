@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="primary">#A44AC2</color> <!-- 主紫色 -->
+    <color name="primary_dark">#7D3A9C</color> <!-- 深紫色 -->
+    <color name="primary_light">#C77CE3</color> <!-- 浅紫色 -->
+    <color name="white">#FFFFFF</color> <!-- 纯白 -->
+    <color name="black">#000000</color> <!-- 纯黑 -->
+
+</resources>

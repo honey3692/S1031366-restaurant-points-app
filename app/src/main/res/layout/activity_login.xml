@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:text="S1031366 Ding Yuan"
+            android:textColor="#A44AC2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="108sp"
+            android:layout_height="108sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_image_logo" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/textViewEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Email"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress" />
+
+        <!-- Password -->
+        <TextView
+            android:id="@+id/textViewPasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Password"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textViewPasswordHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Password must be at least 8 characters"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+
+        <!-- Forgot Password -->
+        <TextView
+            android:id="@+id/textViewForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Forgot password?"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <!-- login -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button" />
+
+        <!-- Sign in with -->
+        <TextView
+            android:id="@+id/textViewSignInWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sign in with"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/buttonGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Google"
+                    android:backgroundTint="#A44AC2"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/rounded_button"
+                    android:padding="12dp"
+                    android:drawablePadding="8dp" />
+
+                <ImageView
+                    android:id="@+id/imageViewGoogleIcon"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/google_logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="8dp">
+
+                <Button
+                    android:id="@+id/buttonFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:backgroundTint="#A44AC2"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/rounded_button" />
+
+                <ImageView
+                    android:id="@+id/imageViewFacebookIcon"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/facebook_logo" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewNewHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="New here? Sign up"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
